@@ -39,4 +39,8 @@ public class Deck {
 	public int checkSize() {
 		return cardDeck.size();
 	}
+	public void cardsLeftInDeck() {
+		System.out.println("Current number of cards in the deck " + checkSize());
+		
+	}
 }

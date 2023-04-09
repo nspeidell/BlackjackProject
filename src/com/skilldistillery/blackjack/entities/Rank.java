@@ -23,7 +23,7 @@ Rank(int theRank) {
 }
 
 public int getValue() {
-	return rank;
+	return this.rank;
 }
  
 }
